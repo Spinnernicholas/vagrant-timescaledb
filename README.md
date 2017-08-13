@@ -12,6 +12,13 @@ vagrant up
 * Vagrantfile - Vagrant configuration file
 * provision.sh - Script for provisioning TimescaleDB
 
+## Connecting To PostgreSQL Remotely
+1. Uncomment Optional Networking Configuration in Vagrantfile before Running "Vagrant Up"
+2. Connect with your Prefered Method
+  * Host Name/Address: 192.168.100.1
+  * Username: postgres
+  * Password: password
+
 ## Links
 * [Vagrant](https://www.vagrantup.com/)
 * [Vagrant Box "ubuntu/xenial64"](https://app.vagrantup.com/ubuntu/boxes/xenial64)

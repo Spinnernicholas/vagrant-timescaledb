@@ -9,8 +9,8 @@ vagrant up
 ```
 
 ## Files
-Vagrantfile - Vagrant configuration file
-provision.sh - Script for provisioning TimescaleDB
+* Vagrantfile - Vagrant configuration file
+* provision.sh - Script for provisioning TimescaleDB
 
 ## Links
 * [Vagrant](https://www.vagrantup.com/)
